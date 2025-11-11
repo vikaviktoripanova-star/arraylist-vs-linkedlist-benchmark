@@ -21,17 +21,18 @@
 - **Документация**: JavaDoc
 
 ## Структура проекта
+```text
 src/main/java/com/benchmark/
-├── Benchmark.java # Утилитарный класс для измерений производительности
-├── ListPerformanceTester.java # Основной класс приложения
-└── Result.java # Класс для хранения результатов тестирования
+├── Benchmark.java                 # Утилитарный класс для измерений производительности
+├── ListPerformanceTester.java     # Основной класс приложения
+└── Result.java                    # Класс для хранения результатов тестирования
 
 src/test/java/com/benchmark/
 └── ListPerformanceTesterTest.java # Unit-тесты
 
-target/surefire-reports/ # Отчеты о выполнении тестов
+target/surefire-reports/           # Отчеты о выполнении тестов
 
-
+```
 ## Классы и их назначение
 
 ### 1. Benchmark
